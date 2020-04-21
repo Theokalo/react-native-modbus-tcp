@@ -2,18 +2,21 @@
   "name": "react-native-modbus-tcp",
   "title": "React Native Modbus Tcp",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "This is a React Native module to help you process modbus data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-modbus-tcp.git",
-    "baseUrl": "https://github.com/github_account/react-native-modbus-tcp"
+    "url": "git+https://github.com/Theokalo/react-native-modbus-tcp.git",
+    "baseUrl": "https://github.com/Theokalo/react-native-modbus-tcp"
   },
+  "homepage": "https://github.com/Theokalo/react-native-modbus-tcp#readme",
   "keywords": [
-    "react-native"
+    "react-native",
+	"modbus-tcp",
+	"modbus"
   ],
   "author": {
     "name": "Theodore Kalogeropoulos",

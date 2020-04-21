@@ -20,6 +20,8 @@ Modbus TCP/IP is also known as Modbus-TCP.
 if your `React Native` version is >=0.60.0 you don't have to use the command above.
 
 ## Usage
+
+`Connect to Modbus TCP Master`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -31,6 +33,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
     });
 ```
 
+`Read Single Coil`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -42,6 +45,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
     });
 ```
 
+`Read Discrete Input`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -52,7 +56,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
       // if response is not success ==> Modbus master is not inited successfully...
     });
 ```
-
+`Read Holding Registers`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -64,6 +68,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
     });
 ```
 
+`Read input registers`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -75,6 +80,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
     });
 ```
 
+`Write single coil`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -86,6 +92,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
     });
 ```
 
+`Write multiple coils`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -97,6 +104,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
     });
 ```
 
+`Write single holding register`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -108,6 +116,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
     });
 ```
 
+`Write multiple holding registers`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -119,6 +128,7 @@ import ModbusTcp from 'react-native-modbus-tcp';
     });
 ```
 
+`Destroy the connection between the slave and the master`
 ```javascript
 import ModbusTcp from 'react-native-modbus-tcp';
 
@@ -146,3 +156,13 @@ import ModbusTcp from 'react-native-modbus-tcp';
 </ul>
 
 Addresses are exactly as is in protocol, so if you see a paper talking about address 40001 this usually means first record address of that function so it means address 0.
+
+## Contributing
+
+Pull requests welcome with bug fixes, documentation improvements, and enhancements.
+
+When making big changes, please open an issue first to discuss.
+
+## License
+
+This project is licensed under the MIT License.
