@@ -22,6 +22,9 @@
     "name": "Theodore Kalogeropoulos",
     "email": "theokalog@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/Theokalo/react-native-modbus-tcp/issues"
+  },
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
