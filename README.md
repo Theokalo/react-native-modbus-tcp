@@ -3,6 +3,8 @@
 This is a React Native module to help you process modbus data.
 This Library is only for <b>android</b> at the moment.
 
+`npm package:` <a href="https://www.npmjs.com/package/react-native-modbus-tcp" target="_blank">https://www.npmjs.com/package/react-native-modbus-tcp</a>
+
 ## What does Modbus TCP/IP mean?
 
 Modbus TCP/IP is a simple Modbus protocol running on Ethernet over a TCP interface. Modbus is an application protocol that assigns the ways of managing and passing data between various layers without being affected by the protocol used by the next immediate layer.
